@@ -6,7 +6,6 @@ const wrapperModifiers = {
   lineLeft: (theme: DefaultTheme) => css`
     padding-left: ${theme.spacings.xxsmall};
     border-left: 0.7rem solid ${theme.colors.secondary};
-    border-radius: 0.2rem;
   `,
   lineBottom: (theme: DefaultTheme) => css`
     position: relative;
@@ -18,7 +17,6 @@ const wrapperModifiers = {
       content: '';
       width: 5rem;
       border-bottom: 0.55rem solid ${theme.colors.primary};
-      border-radius: 0.2rem;
     }
   `
 }
